@@ -1,0 +1,19 @@
+{
+  "name": "Library-Managment-system",
+  "version": "1.0.0",
+  "description": "Library managment system API",
+  "main": "server.js",
+  "author": "Vidura",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  }
+}
